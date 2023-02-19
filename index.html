@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/4e229cf0e9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="wrapper">
+    <form id="form" class="container"  >
+      <h1>FORM</h1>
+  <div class="input-box" id="input-box">
+   <i class="fa-regular fa-user key"></i>
+  <input id="name"  name="userName" type="text" placeholder="UserName"/>
+   </div>
+   <p class="p" id="nameError"></p>
+  <br><br>
+  <div class="input-box" id="input-box1">
+    <i class="fa-regular fa-envelope key"></i>
+  <input id="email"  name="email" type="email" placeholder="E-mail"/>
+</div>
+<p class="p" id="emailError"></p>
+  <br><br>
+  <div class="input-box" id="input-box2">
+    <i class="fa-solid fa-key key"></i> <input type="password" id="psw" name="psw" placeholder="Password"  />  
+</div>
+<p class="p" id="passwordError"></p>
+  <br><br>
+  <div class="input-box">
+  <i class="fa-solid fa-globe key"></i>
+
+  <select  id="country" class="country" >
+    <option value="Country 1">Country </option>
+    <option value="Country 2">Country 2</option>
+    <option value="Country 3">Country 3</option>
+  </select>
+</div>
+  <br>
+  <label for="levelOfDevelopment" class="LevelOfDevelop">Level of development </label>
+  <br>
+  <div class="levelOfDevelopmentMainBox"> 
+    <div class="levelOfDevelopmentBox">
+     <input id="levelOfDevelopment" name="levelOfDevelopment" type="radio"  />
+      <p>Basic</p>
+    </div>
+   <div class="levelOfDevelopmentBox">
+    <input id="levelOfDevelopment" name="levelOfDevelopment"  type="radio"  />
+    <p>Medium</p>
+   </div>
+  <div class="levelOfDevelopmentBox">
+   <input id="levelOfDevelopment" name="levelOfDevelopment" type="radio"  />
+   <p>Advanced</p>
+  </div>
+</div>
+<p id="result">*Must be checked</p>
+
+  <br>
+  <label for="programmingSkills" class="progrSkills">Programming skills </label>
+  <br>
+  <div class="box">
+  <div class="boxJPJs"> 
+   <input id="programmig"  type="checkbox"  />
+   <p>Java</p>
+  </div>
+  <div class="boxJPJs"><input id="Skills"  type="checkbox"  />
+   <p>Python</p>
+   </div>
+  <div class="boxJPJs">
+   <input id="progrSkills"  type="checkbox"  />
+   <p>JavaScript</p>
+  </div> 
+</div>
+      <br><br>
+      <button id="btn" type="submit">SEND</button>
+    </form>
+  </div>
+    
+    <script src="./script.js" ></script>
+</body>
+</html>

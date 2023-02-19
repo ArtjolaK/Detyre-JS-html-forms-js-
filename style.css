@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: sans-serif;
+    /*height: 100vh;*/
+   
+    
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 72px;
+    text-align: center;
+    
+    color: #5D5FEF;
+  }
+  .container{
+    width: 450px;
+    height: 590px;
+
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+       padding: 40px;
+       margin-top: 100px;
+       margin-bottom: 100px;
+}
+.input-box{
+  border: 1px solid #5D5FEF;
+  border-radius: 8px;
+  width: 100%;
+ padding: 4px;
+ display: flex;
+ flex-direction: row;
+}
+.input-box i{
+ margin-left: 5px;
+  margin-top: 5px;
+  color: #5D5FEF;
+}
+input {
+  
+    border-radius: 4px;
+    display: block;
+    font-size: 12px;
+    padding: 8px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+    color:#5D5FEF;
+  }
+  input:focus{
+    outline: 0;
+  }
+  
+.country{
+  width: 100%;
+    border: none;
+    border-radius: 4px;
+    display: block;
+    font-size: 12px;
+    padding: 8px;
+    margin-left: 15px;
+    color: #5D5FEF;
+}
+
+.p{
+  align-self: flex-start;
+  font-size: 10px;
+  
+}
+#result{
+  align-self: flex-start;
+  font-size: 10px;
+  color: #5D5FEF;
+}
+
+.levelOfDevelopmentMainBox{
+   display: flex;
+   flex-direction: row; 
+   gap: 10px;  
+ }
+.levelOfDevelopmentBox{
+  border-radius:5px ;
+  border: 0.5px solid #5D5FEF;
+  display: flex;
+  flex-direction: row;
+  font-size: 15px;
+  padding: 8px;
+  width: 100%;
+  color: #5D5FEF;
+  gap: 7px;
+}
+
+
+.box{
+  display: flex;
+  flex-direction: row;
+  gap: 10px; 
+  
+}
+.boxJPJs{
+  
+  border-radius:5px ;
+  border: 0.5px solid #5D5FEF;
+  display: flex;
+  flex-direction: row;
+  font-size: 15px;
+  padding: 8px;
+  gap: 7px;
+  width: 100%;  
+  color: #5D5FEF;  
+}
+
+button{
+  width: 100%;
+  padding: 8px;
+  color: white;
+  background-color: #5D5FEF;
+  border: none;
+  border-radius: 5px;
+
+    
+}
+.LevelOfDevelop{
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+color: #5D5FEF;
+}
+.progrSkills{
+  font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+color: #5D5FEF;
+}
+.wrapper #nameError{
+  padding: 1px;
+  color: red;
+}
